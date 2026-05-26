@@ -1,0 +1,24 @@
+# Vivado auto-generated temporary/log files
+*.log
+*.jou
+*.str
+.Xil/
+*.os/
+
+# Compilation/Synthesis/Implementation outputs (Heavy files)
+[PnR]/
+[Synth]/
+*.runs/
+*.dir/
+*.gen/
+
+# Simulation outputs
+*.sim/
+
+# User local settings (Prevents path conflicts)
+*.cache/
+*.hw/
+*.ip_user_files/
+
+# IDE/Editor settings
+.vscode/
