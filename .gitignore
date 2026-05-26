@@ -22,3 +22,42 @@
 
 # IDE/Editor settings
 .vscode/
+
+# ====================================================================
+# Visual Studio Auto-Generated Files & Folders
+# ====================================================================
+
+# VS internal hidden folder (IntelliSense, local caches, etc.)
+# **CRITICAL: This folder can grow up to hundreds of MBs. Must be ignored.**
+.vs/
+
+# Build output directories (Debug, Release, etc.)
+Debug/
+Release/
+x64/
+ARM/
+ARM64/
+
+# Build output directories inside individual subprojects
+*/Debug/
+*/Release/
+*/x64/
+*/ARM/
+*/ARM64/
+
+# Intermediate build artifacts and compilation log files
+*.obj
+*.ilk
+*.pdb
+*.tlog
+*.lastbuildstate
+*.idb
+*.iobj
+*.ipdb
+*.log
+
+# User-specific local settings and profiling files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
