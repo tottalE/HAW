@@ -4,7 +4,7 @@
 --			Exercise 4
 --
 -- @name:   seven_segment.vhd
--- @author: 
+-- @author: tottale
 -- @description: control unit for the seven segment display of the 
 --               basys 3 board
 --				 DESIGN FILE
@@ -45,16 +45,16 @@ architecture rtl of seven_segment is
 -- TODO
 
 -- PREPARATION: Update the bit patterns of the constants for the 7-segment LEDs
-constant ZERO : std_logic_vector(7 downto 0)  := "00000000";
-constant ONE : std_logic_vector(7 downto 0)   := "00000000";
-constant TWO : std_logic_vector(7 downto 0)   := "00000000";
-constant THREE : std_logic_vector(7 downto 0) := "00000000";
-constant FOUR : std_logic_vector(7 downto 0)  := "00000000";
-constant FIVE : std_logic_vector(7 downto 0)  := "00000000";
-constant SIX : std_logic_vector(7 downto 0)   := "00000000";
-constant SEVEN : std_logic_vector(7 downto 0) := "00000000";
-constant EIGHT : std_logic_vector(7 downto 0) := "00000000";
-constant NINE : std_logic_vector(7 downto 0)  := "00000000";
+constant ZERO : std_logic_vector(7 downto 0)  := "11000000";
+constant ONE : std_logic_vector(7 downto 0)   := "11111001";
+constant TWO : std_logic_vector(7 downto 0)   := "10101000";
+constant THREE : std_logic_vector(7 downto 0) := "10110000";
+constant FOUR : std_logic_vector(7 downto 0)  := "10011001";
+constant FIVE : std_logic_vector(7 downto 0)  := "10010010";
+constant SIX : std_logic_vector(7 downto 0)   := "10000010";
+constant SEVEN : std_logic_vector(7 downto 0) := "11111000";
+constant EIGHT : std_logic_vector(7 downto 0) := "10000000";
+constant NINE : std_logic_vector(7 downto 0)  := "10010000";
 
 begin
 
