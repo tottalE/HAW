@@ -3,7 +3,7 @@
 --
 -- @data: 17/10/25
 --
--- @autor: n/a
+-- @autor: tottale
 --
 -- @description: simple template file of a VHDL-based testbench
 --

@@ -3,7 +3,7 @@
 -- [IE3-DI] Digital Circuits 
 --
 -- @name:   adder.vhd
--- @author: 
+-- @author: tottale
 -- @description: Ripple-Carry-Adder Unit
 --				 DESIGN FILE
 --
@@ -45,14 +45,21 @@ variable A_v, B_v : std_logic_vector(7 downto 0);
 
 begin
 	-- 1. variable assignment
-	-- TODO
+	A_v := A;
+	B_v := B;
+	c_v := ci;
 	
 	-- 2. data processing: ripple-carry adder
-	-- TODO
+	for i in 0 to 7 loop
+		S_v(i) := A_v(i) xor B_v(i) xor c_v;
+		c_v := (A_v(i) and B_v(i)) or (B_v(i) and c_v) or (A_v(i) and c_v);
+	end loop;
 	
+
 	-- 3. signal assignment
-	-- TODO
-	
+	S <= S_v;
+	co <= c_v;
+
 end process;
 
 end architecture rtl;
